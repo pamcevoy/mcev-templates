@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<ruleset xmlns="http://pmd.sf.net/ruleset/1.0.0"
+      name="PMDMcevRuleSet"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="http://pmd.sf.net/ruleset_xml_schema.xsd"
+      xsi:schemaLocation="http://pmd.sf.net/ruleset/1.0.0 http://pmd.sf.net/ruleset_xml_schema.xsd">
+
+   <description>PMD Default Rule Set</description>
+
+   <rule ref="rulesets/typeresolution.xml/UnusedImports"/>
+
+   <rule ref="rulesets/design.xml/BadComparison"/>
+   <rule ref="rulesets/design.xml/EqualsNull"/>
+
+   <rule ref="rulesets/design.xml/IdempotentOperations"/>
+
+
+   <rule ref="rulesets/migrating.xml/IntegerInstantiation"/>
+   <rule ref="rulesets/migrating.xml/ByteInstantiation"/>
+   <rule ref="rulesets/migrating.xml/ShortInstantiation"/>
+   <rule ref="rulesets/migrating.xml/LongInstantiation"/>
+
+   <rule ref="rulesets/basic.xml/JumbledIncrementer"/>
+
+   <rule ref="rulesets/basic.xml/MisplacedNullCheck"/>
+
+   <rule ref="rulesets/basic.xml/BrokenNullCheck"/>
+   <rule ref="rulesets/basic.xml/BigIntegerInstantiation"/>
+
+   <rule ref="rulesets/imports.xml/DuplicateImports"/>
+   <rule ref="rulesets/imports.xml/DontImportJavaLang"/>
+   <rule ref="rulesets/imports.xml/UnusedImports"/>
+
+   <rule ref="rulesets/junit.xml/JUnitStaticSuite"/>
+   <rule ref="rulesets/junit.xml/UseAssertEqualsInsteadOfAssertTrue"/>
+   <rule ref="rulesets/junit.xml/UseAssertSameInsteadOfAssertTrue"/>
+   <rule ref="rulesets/junit.xml/UseAssertNullInsteadOfAssertTrue"/>
+   <rule ref="rulesets/junit.xml/SimplifyBooleanAssertion"/>
+
+</ruleset>
