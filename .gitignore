@@ -1,27 +1,6 @@
 # Compiled class file
 *.class
 
-# Gradle
-.gradle/
-build/
-
-# Maven
-target/
-
-# Log file
-*.log
-
-# Eclipse files
-.settings/
-.classpath
-.project
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
 # Package Files
 *.jar
 *.war
@@ -31,5 +10,56 @@ target/
 *.tar.gz
 *.rar
 
+## Build Tools
+# Gradle
+.gradle/
+build/
+
+# Maven
+target/
+
+## IDEs
+# BlueJ files
+*.ctxt
+
+# Eclipse files
+.settings/
+.classpath
+.project
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### VS Code ###
+.vscode/
+
+## Other
+# Log file
+*.log
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
